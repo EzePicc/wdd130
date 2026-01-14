@@ -35,13 +35,16 @@ main img{
     width: 150px;
     height: auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    padding: 1px;
     box-shadow:0 0 10px #000;
 
 }
 aside img{
     width: 200px;
     height: auto;
+    border: 1px solid rgb(43, 81, 112);
+    padding: 2px;
+    box-shadow: 0 0 20px gray;
 }
 aside p {
     text-align: justify;
