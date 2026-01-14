@@ -29,7 +29,7 @@ p{
 }
 
 aside{
-    width: 25rem;
+    width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0, 0, 0 / 0.2);
     padding: 1rem;
@@ -40,11 +40,13 @@ aside{
 main img{
     width: 150px;
     height: auto;
-    
+    border: 1px solid rgb(0, 0, 0) 10%;
+    padding: 10px;
+    box-shadow: #000;
 
 }
 aside img{
-    width: 280px;
+    width: 200px;
     height: auto;
 }
 aside p {
