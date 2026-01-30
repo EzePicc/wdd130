@@ -1,26 +1,54 @@
 *{
-    margin: 7;
+    margin: 7px;
     padding: 0;
     box-sizing: border-box;
 }
-main{
-    max-width: 840px;
+
+header, .grid, footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  align-items: center;
+}
+    
+main {
+  grid-column: 2/3;
+  margin: 10px;
+}
+    
+aside {
+  width: 20rem;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 nav{
     background-color: rgb(43, 81, 112);
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
-    display: block;
-    padding: 20px;
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
 }
 
 
 h1 {
-    color: rgb(43, 81, 112);}
+    color: rgb(43, 81, 112);
+    border-bottom: 1px solid rgb(43, 81, 112);
+    padding-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 
 p{
     padding: 0;
@@ -71,10 +99,7 @@ footer{
 
 aside h2 {
   margin: 10px 20px 20px;
-   /* border-bottom: 1px solid #303030; */
 }
-
-/*Class Selectors*/
 
 .box{
     margin: 1rem;
@@ -86,3 +111,4 @@ aside h2 {
 .box h2 {
     color: #f5f5f5;
 }
+
